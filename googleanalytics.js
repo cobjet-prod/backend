@@ -3,7 +3,7 @@ var NA = require("nodealytics");
 var dotenv = require('dotenv').load();
 
 var UA = process.env.UA || 'UA-62225575-1';
-NA.initialize(UA, '2bees.com', function () {
+NA.initialize(UA, 'cobjet.com', function () {
   //MORE GOOGLE ANALYTICS CODE HERE
 });
 

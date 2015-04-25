@@ -27,7 +27,7 @@ var _ = require('lodash');
  */
 exports.getApi = function(req, res) {
   res.render('api/index', {
-    title: '2bees API'
+    title: 'cobjet API'
   });
 };
 
